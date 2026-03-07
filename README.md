@@ -25,5 +25,11 @@ If the Giphy API reaches its request limit or fails to load, the script will aut
    ```bash
    git clone [https://github.com/your-username/guess-number-game-js.git](https://github.com/your-username/guess-number-game-js.git)
 
+## 🎮 Play the Game
+You can try the live version of this game directly in your browser! Click the link below to start guessing:
+
+👉 **[Play Guess Number Game JS Here](https://rahelxv.github.io/guess-number-game-js/)**
+
+
 ## 📺 Game Preview
 https://github.com/user-attachments/assets/51a3d955-46b2-465e-83ed-2397fbcc0944 
