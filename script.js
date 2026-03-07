@@ -151,6 +151,8 @@ div.style.display = 'none';
     pembungkus_gif.innerHTML += `<img src="${urlGambar}" alt="GIF">`;
   } catch (error) {
     console.error("Waduh, ada masalah:", error);
+    pembungkus_gif.innerHTML += `<img src="img/win-lose.jpg" alt="picture">`;//in case api limited
   }
 }
+
 
