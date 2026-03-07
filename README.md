@@ -1,5 +1,3 @@
-
-https://github.com/user-attachments/assets/af2efe4c-c9ac-4727-ad75-3784d710893f
 # Guess Number Game JS 🎮
 
 A dynamic and interactive number guessing game built with **Vanilla JavaScript**. This project allows users to define their own difficulty levels by setting custom ranges and a life system, featuring real-time feedback and visual rewards.
@@ -28,4 +26,4 @@ If the Giphy API reaches its request limit or fails to load, the script will aut
    git clone [https://github.com/your-username/guess-number-game-js.git](https://github.com/your-username/guess-number-game-js.git)
 
 ## 📺 Game Preview
-![Game Demo]( https://github.com/user-attachments/assets/51a3d955-46b2-465e-83ed-2397fbcc0944 )
+https://github.com/user-attachments/assets/51a3d955-46b2-465e-83ed-2397fbcc0944 
