@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess A Number Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <h1 class="main_desc">Guess a number</h1>
+    <h2 class="correct_number"></h2>
+    <div class="go_back_bungkus">
+        <button class="go_back">back</button>
+    </div>
+    <div class="pembungkus-awal">
+        <button class="button">Play</button>
+        <div class="pembungkus-input">
+            <p>Attempts Number</p>
+            <input type="text" inputmode="numeric" class="ipt1 life" placeholder="Number of Guess">
+            <p>Start Range</p>
+            <input type="text" inputmode="numeric" class="ipt2 start_number" placeholder="Start Number">
+            <p>End Range</p>
+            <input type="text" inputmode="numeric" class="ipt3 end_number" placeholder="End Number">
+        </div>
+    </div>
+    <div class="Tebakan_notif">
+    </div>
+    <div class="pembungkus-main">
+        <p>Number Guess</p>
+        <input type="text" class="ipt_tebak" placeholder="Guess"><br>
+        <button class="btn_tebak">Guess</button>
+    </div>
+    <div class="pembungkus_gambar_random">
+    </div>
+
+
+<script src="script.js"></script>
+</body>
+</html>

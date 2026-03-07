@@ -1,0 +1,160 @@
+/* do not change */
+.pembungkus-main {
+    display: none;
+}
+/* do not change */
+
+body{
+    background-color: rgb(255, 255, 255);
+    animation-name: mybackanimation;
+    animation-duration: 10s;
+}
+
+h1{
+    font-family: "Bitcount Prop Double Ink", system-ui;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.go_back_bungkus{
+    padding: 20px;
+}
+.go_back_bungkus > button{
+    font-family: "Creepster", system-ui;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-radius: 10%;
+    color:rgb(255, 255, 255);
+    background-color: plum;
+    outline: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0.5vh #c4c4c4;
+    text-shadow: 1px 1px 1px black;
+    
+}
+
+.go_back:hover {background-color: rgb(149, 73, 149)}
+.go_back:active {
+  background-color: rgb(149, 73, 149);
+  box-shadow: 0 3px #999;
+  transform: translateY(4px);
+}
+
+.pembungkus_gambar_random{
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    width: auto;
+    object-fit: cover;
+
+}
+
+.Tebakan_notif {
+    display: flex;            
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;     
+    height: 30vh;             
+    width: 100%;           
+    overflow-y: auto;           
+    scrollbar-width: thin;
+}
+
+
+.button{
+    display: block;
+    width: fit-content; /* Atau tentukan lebar, misal: 200px */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vh;
+    font-family: "Creepster", system-ui;
+    padding: 3vh;
+    border-radius: 45%;
+    color:rgb(255, 255, 255);
+    background-color: rgb(255, 135, 135);
+    outline: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0.5vh #c4c4c4;
+    text-shadow: 1px 1px 1px black;
+}
+
+.button:hover {background-color: rgb(255, 64, 64)}
+.button:active {
+  background-color: rgb(255, 64, 64);
+  box-shadow: 0 3px #999;
+  transform: translateY(4px);
+}
+
+
+.pembungkus-input{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+     width: fit-content; /* Atau tentukan lebar, misal: 200px */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input{
+    width: 15vh;
+    font-family: "Creepster", system-ui;
+}
+
+.pembungkus-input > p{
+    font-family: "Creepster", system-ui;
+}
+
+
+.pembungkus-main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+     width: fit-content; /* Atau tentukan lebar, misal: 200px */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+}
+
+.btn_tebak{
+    display: block;
+    width: fit-content; /* Atau tentukan lebar, misal: 200px */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    font-family: "Creepster", system-ui;
+    padding: 3vh;
+    border-radius: 45%;
+    color:rgb(255, 255, 255);
+    background-color: rgb(255, 135, 135);
+    outline: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0.5vh #c4c4c4;
+    text-shadow: 1px 1px 1px black;
+}
+.btn_tebak:hover {background-color: rgb(255, 64, 64)}
+.btn_tebak:active {
+  background-color: rgb(255, 64, 64);
+  box-shadow: 0 3px #999;
+  transform: translateY(4px);
+}
+
+.pembungkus-main > p{
+font-family: "Creepster", system-ui;
+}
+
+.correct_number{
+    display: none;
+    text-align: center;
+    font-family: "Creepster", system-ui;
+    color: rgb(0, 0, 0);
+    font-size: 3vh;
+    font-weight: 100;
+    text-shadow: 1px 3px 1px rgb(233, 171, 233);
+}
