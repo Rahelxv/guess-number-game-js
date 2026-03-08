@@ -111,7 +111,6 @@ input{
 
 
 .pembungkus-main{
-    display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
@@ -157,4 +156,5 @@ font-family: "Creepster", system-ui;
     font-size: 3vh;
     font-weight: 100;
     text-shadow: 1px 3px 1px rgb(233, 171, 233);
+
 }
