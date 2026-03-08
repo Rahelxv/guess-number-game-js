@@ -131,8 +131,8 @@ go_back.addEventListener('click', function(){
 
 //randomized function
 function randomized_gif(){
-    let random = Math.floor(Math.random() * 5) - 1;
-    return Number(random);
+    let random = Math.floor(Math.random() * 5) + 1;
+    return random;
 }
 
 
@@ -140,7 +140,7 @@ function randomized_gif(){
 //fetch win game-over
 async function ambilData(query) { 
 const apiKey = 'nT6dHkcK1TTVG3oACLWXqduXZnaKNnFK';
-let url = `https://api.giphy.com/v1/gifs/search?api_key=${apiKey}&q=${query}&limit=100&offset=0&rating=g&lang=en&bundle=messaging_non_clips`
+let url = `https://api.giphy.com/v1/gifs/search?api_key=${apiKey}&q=${query}&limit=6&offset=0&rating=g&lang=en&bundle=messaging_non_clips`
 div.style.display = 'none';
   try { 
     const respon = await fetch(url);
@@ -151,8 +151,11 @@ div.style.display = 'none';
     pembungkus_gif.innerHTML += `<img src="${urlGambar}" alt="GIF">`;
   } catch (error) {
     console.error("Waduh, ada masalah:", error);
-    pembungkus_gif.innerHTML += `<img src="img/win-lose.jpg" alt="picture">`;//in case api limited
+    pembungkus_gif.innerHTML += `<img src="img/win-lose.jpg" alt="picture">`;
   }
 }
+
+
+
 
 
